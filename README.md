@@ -5,6 +5,31 @@ The first half is more or less my learning path in the past two years while the 
 Hope the list is helpful, especially to whom are not in CS major but interested in data science!
 
 ***
+## Table of Contents
+
+* [One Month Plan](#one-month-plan)
+* [Machine Learning](#machine-learning)
+* [Natural Language Processing](#natural-language-processing)
+* [Deep Learning](#deep-learning)
+* [Systems](#systems)
+* [Analytics](#analytics)
+* [Reinforcement Learning](#reinforcement-learning)
+* [Other Courses](#others)
+* [Interviews](#interviews)
+* [Bayesian](#bayesian)
+* [Time series](#time-series)
+* [Quant](#quant)
+* [More Lists](#more)
+
+***
+## One Month Plan:
+
+You may find the list overwhelming. Here is my suggestion if you want to have some basic understanding in one month:
+  * Learn Python the hard way: [Free book](https://learnpythonthehardway.org/book/)
+  * Stanford Statistical Learning ([Course page](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)) or Coursera Stanford by Andrew Ng ([Coursera](https://www.coursera.org/learn/machine-learning), [Youtube](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN))
+  * Ng’s deep learning courses: [Coursera](https://www.coursera.org/specializations/deep-learning)  
+  * Keras in 30 sec: [Link](https://keras.io/#getting-started-30-seconds-to-keras)
+  * Database by Stanford: [Course](http://online.stanford.edu/course/databases-self-paced)
 
 ## Machine Learning:
 
@@ -22,6 +47,7 @@ http://cs229.stanford.edu/syllabus.html)
   * Introduction to Statistical Learning: [pdf](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf)
   * Computer Age Statistical Inference: Algorithms, Evidence, and Data Science: [pdf](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf)  
   * The Elements of Statistical Learning: [pdf](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+  * Machine Learning Yearning: [Website](http://www.mlyearning.org/)
 
 ### - Comments:
 Statistical Learning is the introduction course. It is free to earn a certificate. It follows Introduction to Statistical Learning book closely. Coursera Stanford by Andrew Ng is another introduction course course and quite popular. Taking either of them is enough for most of data science positions. People want to go deeper can take 229 or 701 and read ESL book.
@@ -31,7 +57,7 @@ Statistical Learning is the introduction course. It is free to earn a certificat
 
 ## Natural Language Processing: 
 ### - Videos:
-  * Stanford - Basic NLP course on Coursera: [Videos](https://www.youtube.com/playlist?list=PL6397E4B26D00A269&disable_polymer=true), [Slides](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
+  * Stanford - Basic NLP course on Coursera: [Videos](https://www.youtube.com/playlist?list=PLoROMvodv4rOFZnDyrlW3-nI7tMLtmiJZ&disable_polymer=true), [Slides](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
   * Stanford - CS224n Natural Language Processing with Deep Learning: [Course web](http://web.stanford.edu/class/cs224n/), [Videos](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
   * CMU - Neural Nets for NLP 2017: [Course web](http://www.phontron.com/class/nn4nlp2017/schedule.html), [Videos](https://www.youtube.com/playlist?list=PL8PYTP1V4I8ABXzdqtOpB_eqBlVAz_xPT)
   * University of Oxford and DeepMind - Deep Learning for Natural Language Processing: 2016-2017: [Course web](http://www.cs.ox.ac.uk/teaching/courses/2016-2017/dl/), [Videos and slides](https://github.com/oxford-cs-deepnlp-2017/lectures)
@@ -40,8 +66,11 @@ Statistical Learning is the introduction course. It is free to earn a certificat
 ### - Books:
   * Speech and Language Processing (3rd ed. draft): [Book](https://web.stanford.edu/~jurafsky/slp3/)
   * An Introduction to Information Retrieval: [pdf](https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf)
-  * Deep Learning (Some chapters or sections): [Book](www.deeplearningbook.org)
+  * Deep Learning (Some chapters or sections): [Book](http://www.deeplearningbook.org)
   * A Primer on Neural Network Models for Natural Language Processing: [Paper](http://u.cs.biu.ac.il/~yogo/nnlp.pdf). Goldberg also published a new book this year
+  * NLP by Jacob Eisenstein: [pdf](https://github.com/jacobeisenstein/gt-nlp-class/tree/master/notes). Free book draft
+  * Deep Learning in Natural Language Processing by Deng, Li: [Amazon](https://www.springer.com/us/book/9789811052088)
+
 
 ### - Packages:
   * NLTK: http://www.nltk.org/
@@ -62,8 +91,7 @@ Some other people's collections: [NLP](https://github.com/keon/awesome-nlp), [DL
   * Tensorflow. Stanford CS20SI: [Youtube](https://www.youtube.com/playlist?list=PLQ0sVbIj3URf94DQtGPJV629ctn2c1zN-)
   * Stanford 231n: Convolutional Neural Networks for Visual Recognition (Spring 2017): [Youtube](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), [Couse page](http://cs231n.stanford.edu/)
   * Stanford 224n: Natural Language Processing with Deep Learning (Winter 2017): [Youtube](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6), [Course page](http://web.stanford.edu/class/cs224n/)
-The self-driving car is a really hot topic recently. Take a look at this short course to see how it works. 
-  * MIT 6.S094: Deep Learning for Self-Driving Cars: [Youtube](https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf), [Couse page](http://selfdrivingcars.mit.edu/)
+  * The self-driving car is a really hot topic recently. Take a look at this short course to see how it works. MIT 6.S094: Deep Learning for Self-Driving Cars: [Youtube](https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf), [Couse page](http://selfdrivingcars.mit.edu/)
   * Neural Networks for Machine Learning by Hinton: [Coursera](https://www.coursera.org/learn/neural-networks). This course is so hard for me but it covers almost everything about neural networks. Prof. Hinton is the hero.
   * FAST.ai: [Course](http://www.fast.ai/)
 
